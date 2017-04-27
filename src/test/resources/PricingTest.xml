@@ -1,0 +1,7 @@
+<suite name="PricingTest">
+	<test name="PricingTest">
+		<classes>
+			<class name="com.test.pricing.PricingTest" />
+		</classes>
+	</test>
+</suite>

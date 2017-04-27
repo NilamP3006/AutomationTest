@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PricingLoginTest]">
+  <test name="PricingLoginTest">
+    <classes>
+      <class name="com.test.pricing.PricingLoginTest"/>
+    </classes>
+  </test> <!-- PricingLoginTest -->
+  <test name="PricingLoginTest(failed)">
+    <classes>
+      <class name="com.test.pricing.PricingLoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="resettingValues"/>
+          <include name="aftersuite"/>
+          <include name="getLoginTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.test.pricing.PricingLoginTest -->
+    </classes>
+  </test> <!-- PricingLoginTest(failed) -->
+</suite> <!-- Failed suite [PricingLoginTest] -->

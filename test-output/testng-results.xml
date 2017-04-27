@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94352" started-at="2017-04-24T03:42:09Z" finished-at="2017-04-24T03:43:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94352" started-at="2017-04-24T03:42:09Z" finished-at="2017-04-24T03:43:43Z">
+      <class name="com.test.pricing.PricingPolicyDetailsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="beforeTest" is-config="true" duration-ms="22159" started-at="2017-04-24T09:11:47Z" finished-at="2017-04-24T09:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="resettingValues" is-config="true" duration-ms="1283" started-at="2017-04-24T09:12:10Z" finished-at="2017-04-24T09:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getPricingTest(java.util.Hashtable)[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="getPricingTest" duration-ms="29684" started-at="2017-04-24T09:12:11Z" data-provider="getPricingPolicyDetails" finished-at="2017-04-24T09:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Pricing Parameter Page will be displayed, PricingParameter=General Settings, Runmode=Y, Description=Verify General Settings tab}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPricingTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="afterMethod" is-config="true" duration-ms="371" started-at="2017-04-24T09:12:40Z" finished-at="2017-04-24T09:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="resettingValues" is-config="true" duration-ms="1048" started-at="2017-04-24T09:12:41Z" finished-at="2017-04-24T09:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getPricingTest(java.util.Hashtable)[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="getPricingTest" duration-ms="34968" started-at="2017-04-24T09:12:42Z" data-provider="getPricingPolicyDetails" finished-at="2017-04-24T09:13:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Pricing Parameter Page will be displayed, PricingParameter=Group Costs, Runmode=Y, Description=Verify Group Costs tab}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPricingTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="afterMethod" is-config="true" duration-ms="308" started-at="2017-04-24T09:13:17Z" finished-at="2017-04-24T09:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="resettingValues" is-config="true" duration-ms="1066" started-at="2017-04-24T09:13:17Z" finished-at="2017-04-24T09:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getPricingTest(java.util.Hashtable)[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="getPricingTest" duration-ms="11671" started-at="2017-04-24T09:13:18Z" data-provider="getPricingPolicyDetails" finished-at="2017-04-24T09:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Pricing Parameter Page will be displayed, PricingParameter=Aggragator Pricing, Runmode=Y, Description=Verify Aggragator Pricing tab}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPricingTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="afterMethod" is-config="true" duration-ms="254" started-at="2017-04-24T09:13:30Z" finished-at="2017-04-24T09:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="resettingValues" is-config="true" duration-ms="1088" started-at="2017-04-24T09:13:30Z" finished-at="2017-04-24T09:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getPricingTest(java.util.Hashtable)[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="getPricingTest" duration-ms="11546" started-at="2017-04-24T09:13:31Z" data-provider="getPricingPolicyDetails" finished-at="2017-04-24T09:13:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Pricing Parameter Page will be displayed, PricingParameter=Enterprise Pricing, Runmode=Y, Description=Verify Enterprise Pricing tab}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPricingTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="afterMethod" is-config="true" duration-ms="234" started-at="2017-04-24T09:13:43Z" finished-at="2017-04-24T09:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.test.pricing.PricingPolicyDetailsTest@971d0d8]" name="aftersuite" is-config="true" duration-ms="378" started-at="2017-04-24T09:13:43Z" finished-at="2017-04-24T09:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.test.pricing.PricingPolicyDetailsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

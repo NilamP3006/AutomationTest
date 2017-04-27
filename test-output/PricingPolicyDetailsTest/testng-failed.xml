@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PricingPolicyDetailsTest]">
+  <test name="PricingPolicyDetailsTest">
+    <classes>
+      <class name="com.test.pricing.PricingPolicyDetailsTest"/>
+    </classes>
+  </test> <!-- PricingPolicyDetailsTest -->
+</suite> <!-- Failed suite [PricingPolicyDetailsTest] -->

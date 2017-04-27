@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Build Offer2]">
+  <test name="Build Offer2 Test">
+    <classes>
+      <class name="com.test.buildoffer.ExecuteBuildOffer2"/>
+    </classes>
+  </test> <!-- Build Offer2 Test -->
+</suite> <!-- Failed suite [Build Offer2] -->

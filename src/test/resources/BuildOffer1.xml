@@ -1,0 +1,7 @@
+<suite name="Build Offer1">
+	<test name="Build Offer1 Test">
+		<classes>
+			<class name="com.test.buildoffer.ExecuteBuildOffer1" />
+		</classes>
+	</test>
+</suite>

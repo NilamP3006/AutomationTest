@@ -1,0 +1,7 @@
+<suite name="Login">
+	<test name="Login Test">
+		<classes>
+			<class name="com.test.buildoffer.LoginTest" />
+		</classes>
+	</test>
+</suite>

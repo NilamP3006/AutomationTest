@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20078" started-at="2017-04-18T07:11:46Z" finished-at="2017-04-18T07:12:06Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20078" started-at="2017-04-18T07:11:46Z" finished-at="2017-04-18T07:12:06Z">
+      <class name="com.test.buildoffer.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="beforeTest" is-config="true" duration-ms="19129" started-at="2017-04-18T12:41:27Z" finished-at="2017-04-18T12:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="resettingValues" is-config="true" duration-ms="1281" started-at="2017-04-18T12:41:47Z" finished-at="2017-04-18T12:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getLoginTest(java.util.Hashtable)[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="getLoginTest" duration-ms="3510" started-at="2017-04-18T12:41:48Z" data-provider="getLoginTestData" finished-at="2017-04-18T12:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Sales Overview, Password=admin, Runmode=Y, UserName=admin, Description=Valid username & password.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="afterMethod" is-config="true" duration-ms="138" started-at="2017-04-18T12:41:52Z" finished-at="2017-04-18T12:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="resettingValues" is-config="true" duration-ms="1048" started-at="2017-04-18T12:41:52Z" finished-at="2017-04-18T12:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getLoginTest(java.util.Hashtable)[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="getLoginTest" duration-ms="2418" started-at="2017-04-18T12:41:53Z" data-provider="getLoginTestData" finished-at="2017-04-18T12:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Error ! Please enter correct credentials., Password=, Runmode=Y, UserName=admin, Description=Only Username & no password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="afterMethod" is-config="true" duration-ms="48" started-at="2017-04-18T12:41:56Z" finished-at="2017-04-18T12:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="resettingValues" is-config="true" duration-ms="1038" started-at="2017-04-18T12:41:56Z" finished-at="2017-04-18T12:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getLoginTest(java.util.Hashtable)[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="getLoginTest" duration-ms="2547" started-at="2017-04-18T12:41:57Z" data-provider="getLoginTestData" finished-at="2017-04-18T12:41:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Error ! Please enter correct credentials., Password=admin, Runmode=Y, UserName=asdasd, Description=Wrong UserName & right password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="afterMethod" is-config="true" duration-ms="64" started-at="2017-04-18T12:41:59Z" finished-at="2017-04-18T12:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="resettingValues" is-config="true" duration-ms="1054" started-at="2017-04-18T12:41:59Z" finished-at="2017-04-18T12:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getLoginTest(java.util.Hashtable)[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="getLoginTest" duration-ms="2393" started-at="2017-04-18T12:42:00Z" data-provider="getLoginTestData" finished-at="2017-04-18T12:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Error ! Please enter correct credentials., Password=admin, Runmode=Y, UserName=, Description=Only Password & no username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="afterMethod" is-config="true" duration-ms="63" started-at="2017-04-18T12:42:03Z" finished-at="2017-04-18T12:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resettingValues()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="resettingValues" is-config="true" duration-ms="1044" started-at="2017-04-18T12:42:03Z" finished-at="2017-04-18T12:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resettingValues -->
+        <test-method status="PASS" signature="getLoginTest(java.util.Hashtable)[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="getLoginTest" duration-ms="2546" started-at="2017-04-18T12:42:04Z" data-provider="getLoginTestData" finished-at="2017-04-18T12:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=Error ! Please enter correct credentials., Password=abcd, Runmode=Y, UserName=admin, Description=Wrong Password & right Username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="afterMethod" is-config="true" duration-ms="49" started-at="2017-04-18T12:42:06Z" finished-at="2017-04-18T12:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.test.buildoffer.LoginTest@1188e820]" name="aftersuite" is-config="true" duration-ms="642" started-at="2017-04-18T12:42:06Z" finished-at="2017-04-18T12:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.test.buildoffer.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

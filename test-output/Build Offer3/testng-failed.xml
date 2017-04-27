@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Build Offer3]">
+  <test name="Build Offer3 Test">
+    <classes>
+      <class name="com.test.buildoffer.ExecuteBuildOffer3"/>
+    </classes>
+  </test> <!-- Build Offer3 Test -->
+  <test name="Build Offer3 Test(failed)">
+    <classes>
+      <class name="com.test.buildoffer.ExecuteBuildOffer3">
+        <methods>
+          <include name="getBuildOffer3Test" invocation-numbers="0 1"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="aftersuite"/>
+          <include name="resettingValues"/>
+        </methods>
+      </class> <!-- com.test.buildoffer.ExecuteBuildOffer3 -->
+    </classes>
+  </test> <!-- Build Offer3 Test(failed) -->
+</suite> <!-- Failed suite [Build Offer3] -->
